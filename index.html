@@ -15,7 +15,19 @@
             text-align: center;
         }
 
-        /* Estilizando a área dos projetos */
+        /* Colocando habilidades lado a lado */
+        .habilidades {
+            list-style: none;
+            padding: 0;
+        }
+
+        .habilidades li {
+            display: inline-block;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        /* Estilizando os projetos */
         .projetos-container {
             display: flex;
             justify-content: center;
@@ -54,7 +66,7 @@
     <p>Moro em Dois Vizinhos, sou casado e tenho dois filhos. Gosto de assistir a seriados. Sou licenciado em Filosofia e professor há 18 anos.</p>
 
     <h2>Minhas habilidades</h2>
-    <ul>
+    <ul class="habilidades">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
