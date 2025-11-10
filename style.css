@@ -79,3 +79,9 @@
         padding-bottom: 40px;
     }
 </style>
+ div{
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
