@@ -26,3 +26,9 @@ main{
     margin-top: 10px;
     display: flex;
 }
+.projeto img {
+    width: 100%;
+    max-height: 180px; /* você pode ajustar para 200px ou 160px conforme preferência */
+    object-fit: cover;
+    border-radius: 8px;
+}
